@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+     height:420vh; 
+    width:100%;
+    background-color: white;
+}
+
+@media screen And (max-width:767px) {
+
+    /* code */
+    .container
+    .header,
+    .nav,
+    .n1,
+    .n21,
+    .n3,
+    .n31,
+    .o1{
+        width: 100%;
+    }
+
+}
+
+.header{
+    height:60px;
+    width:100%;
+    margin-top: 0px;
+    background-color:lightgrey; 
+}
+
+
+.o1 li{
+    list-style-type: none;
+    display: inline;
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+
+}
+
+.o1 li a{
+    
+    text-decoration: none;
+}
+
+
+/* ****************************************************************************************************************** */
+
+.nav{
+    height:80px;
+    width:100%;
+    /* background-color: orange; */
+
+
+    position: sticky;
+    top:0px;
+}
+.nav .n1{
+    height:80px ;
+    width: 20%;
+    float: left;
+    background-color:white;
+    font-size: 20px;
+    padding: auto;
+    padding: 20px;
+
+}
+
+.nav .n2{
+    height: 80px;
+    width: 60%;
+    background-color: aqua;
+    float: left;
+} 
+
+.n2 .n21 {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.n21 li {
+    list-style-type: none;
+
+    transition: all 0.3s ease-in;
+}
+
+.n21 li a {
+    color: red;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: 20px;
+}
+
+
+.n21 li:hover {
+    transform: scale(1.2);
+}
+
+.n21 li a:hover {
+    color: rgb(44, 205, 47);
+}
+ 
+.n3{
+    height: 80px;
+    width: 20%;
+    background-color: white;
+    float: left;
+}
+.n3 .n31{
+    padding-top: 5px;
+    padding-left: 30px;
+    border-style: solid;
+    background-color: rgb(26, 22, 22);
+    border-radius: 10px 10px;
+    border-color: red;
+    border-width: 5px;
+    margin-top: 10px;
+    margin-right: 60px;
+    margin-top: 20px;
+    color: aliceblue;
+    
+}
+.n3 h2:hover{
+    color: rgb(158, 28, 24);
+}
+
+
+/* ************************************************************************************************ */
+
+.p11{
+    height: 40vh;
+    width: 100%;
+    background-image: url(../Assist/Image/blur2.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: hsl(0, 10, 0 );
+    float: left;
+
+}
+
+.b1{
+    height: 100vh;
+    width: 100%;
+    background-color: whitesmoke;
+    float: left;
+    margin-top: 20px;
+}
+
+.b11{
+    height: 30vh;
+    width: 100%;
+    background-color: white;
+    float: left;
+    
+}
+
+
+.k1{
+    height: 40px; 
+    width: 12%; 
+    /* border-style:solid; */
+    background-color: black;
+    float: left;
+    margin-left:20%; 
+
+    margin-top: 10%; 
+    color: white; 
+    font-size: 20px; padding: auto;
+    padding: 0.5%;
+    padding-left: 3%;
+    border-radius: 10px 5px;
+}
+
+.k1:hover{
+    color: red;
+}
+
+
+/* ***************************************************************************************************** */
+
+.p1{
+    height: 100vh;
+    width: 100%;
+    background-color:whitesmoke;
+    float: left;
+     
+}
+
+.v11{
+    height: 80vh;
+    width: 25%;
+    background-color: aliceblue;
+    float: left;
+    margin-top: 5%;
+    margin-left: 7%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+.v12{
+    height: 80vh;
+    width: 25%;
+    background-color: aliceblue;
+    float: left;
+    margin-left: 5%;
+    margin-top: 5%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.v13{
+    height: 80vh;
+    width: 25%;
+    background-color: aliceblue;
+    float: left;
+    margin-left: 5%;
+    margin-top: 5%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* *****************************************************************************************************8 */
+
+.l{
+    height: 30px; 
+    width: 3%; 
+    /* border-style:solid; */
+    background-color: black;
+    float: left;
+    margin-left:40%; 
+    text-decoration: none;
+    margin-top: 5%; 
+    color: white; 
+    font-size: 20px; padding: auto;
+    padding: auto;
+    padding-left: 1.2%;
+    padding-top: 0.3%;
+
+    
+    border-radius: 50%;
+}
+.l:hover{
+    color: red;
+}
+
+
+/* **************************************************************** */
+
+.black{
+    height: 15vh;
+    width: 100%;
+    background-color: black;
+    float: left;
+}
