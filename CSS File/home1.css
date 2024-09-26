@@ -526,3 +526,104 @@ background-size: 100% 50%;
     background-color: black;
     float: left;
 }
+
+
+
+
+
+@media screen and (max-width: 767px) {
+    .header, .nav, .n1, .n2, .n3, .n21, .container1, .c1, .f1, .ii1, .ii2, .b, .a1, .g1, .p1, .v11, .v12, .v13, .form {
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+
+    .nav .n1, .nav .n2, .nav .n3 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .n21 {
+        flex-direction: column;
+    }
+
+    .c11, .c12, .c13, .a11, .a12, .a13, .g11, .g12, .g13, .v11, .v12, .v13, .b1, .b2, .b3 {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .f11 {
+        height: auto; /* Allow the height to adjust dynamically */
+        width: 100%; /* Full width on mobile */
+        background-size: contain; /* Ensure the entire image fits within the element */
+        background-repeat: no-repeat; /* Avoid repeating the background */
+        background-position: center; /* Center the background image */
+        padding-bottom: 50px; /* Add padding to avoid content cut-off */
+    }
+    
+
+    
+    
+
+
+
+    .form {
+        width: 90%;
+        margin: 10% auto;
+    }
+
+
+}
+
+
+@media screen and (max-width: 767px) {
+    /* Make the .f11 section responsive */
+    .f11 {
+        height: auto; /* Allow height to adapt based on content */
+        width: 100%;
+        background-size: cover; /* Ensure background scales properly */
+        background-position: center; /* Center the background image */
+        padding: 20px; /* Add padding for better spacing */
+        display: flex;
+        flex-direction: column; /* Stack child elements vertically */
+        align-items: center; /* Center child elements */
+    }
+
+    /* Adjust the form inside .f11 */
+    .form {
+        width: 90%; /* Make form take up 90% of screen width */
+        height: auto; /* Auto height based on content */
+        margin-left: 0; /* Center the form horizontally */
+        margin-top: 20px; /* Add some spacing at the top */
+    }
+
+    /* Form labels and inputs adjustments */
+    .form1 label, .form1 input {
+        width: 100%; /* Full width for labels and inputs */
+        margin-left: 0; /* Align with the full width */
+    }
+
+    /* Adjust input fields */
+    .form1 input {
+        height: 40px; /* Reduce height for mobile */
+        margin-top: 10px; /* Space between inputs */
+    }
+
+    /* Black section responsiveness */
+    .black {
+        height: auto; /* Adjust height to fit content */
+        width: 100%; /* Full width on mobile */
+        padding: 20px; /* Add padding for better layout */
+    }
+
+    .ii1{
+        margin-top: 0%;
+    }
+}
+
+
+
+
+
+
